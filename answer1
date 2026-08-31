@@ -1,0 +1,6 @@
+The correct answer is:
+
+**A separate scanner still requires a context switch – which reintroduces the exact delay and friction the execution layer was designed to eliminate**
+
+The architectural significance is that embedding security directly into the execution click removes the need for users to leave their workflow, open another tool, verify safety,
+and then return to execute — preserving the seamless, real-time experience that sovereign execution aims to provide.
