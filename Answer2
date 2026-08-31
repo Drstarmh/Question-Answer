@@ -1,0 +1,8 @@
+The correct answer is:
+
+**A structural entry point for MEV bots and snipers to front-run the exact trade you are setting up**
+
+In a bot-dominated market, 40 seconds of manual execution is an eternity.
+During that time, automated systems can detect the pending transaction in the mempool, analyze it,
+and insert their own transactions ahead of yours to capture value — whether through front-running, sandwich attacks,
+or simply sniping the same opportunity before your trade lands. This is why reducing execution latency is critical for sovereign agent infrastructure.
