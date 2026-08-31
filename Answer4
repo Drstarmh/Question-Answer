@@ -1,0 +1,9 @@
+The correct answer is:
+
+**The tools were designed as separate layers with no native bridge – the user is manually transporting data between two systems that were never built to talk to each other**
+
+This is an architectural problem because the social layer (X, Telegram, Discord) where signals 
+and contract addresses appear is completely disconnected from the execution layer (DEX interfaces, wallets).
+Users are forced to act as the human bridge between two systems that were never designed to integrate — copying, pasting,
+and switching contexts manually. No amount of speed improvement fixes this fundamental separation;
+it requires an architectural change where execution can happen natively *within* the feed where signals appear.
